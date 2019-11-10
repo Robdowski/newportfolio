@@ -1,0 +1,43 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header {
+  font-family: "Hikou";
+}
+
+.main-header h1 {
+  color: #14a76c;
+  font-size: 3.8rem;
+  margin: 5px 0;
+}
+.main-header h3 {
+  color: #ffe400;
+  font-size: 2.2rem;
+  margin: 5px 0;
+}
+
+.sub-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-header i {
+  color: #ffe400;
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+
+.main-icons {
+  margin: 20px;
+  color: #ff652f;
+  font-size: 1.5rem;
+}
+
+.main-icons i {
+  padding: 0 30px;
+}
