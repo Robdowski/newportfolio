@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Trilogy.css'
 
 const Trilogy = () => {
   return (

@@ -1,0 +1,33 @@
+.trilogy-container{
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trilogy{
+    width: 30%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.trilogy h3{
+    font-family: 'Hikou';
+    font-size: 2.2rem;
+}
+
+.one{
+    color: #14A76C;
+    border: 1px solid #14A76C;
+}
+
+.two{
+   color: #FFE400;
+   border: 1px solid #FFE400;
+}
+
+.three{
+    color: #FF652F;
+    border: 1px solid #FF652F;
+}
