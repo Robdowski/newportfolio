@@ -9,8 +9,8 @@ const Nav = () => {
         <h2 className="nav-header-two">.DEV</h2>
       </div>
       <div className="nav-container">
-        <a href="https://github.com/Robdowski?tab=repositories">Github</a>
-        <a href="https://www.linkedin.com/in/robert-carter-72824918a/">LinkedIn</a>
+        <a href="https://github.com/Robdowski?tab=repositories" target='_blank'>Github</a>
+        <a href="https://www.linkedin.com/in/robert-carter-72824918a/" target='_blank'>LinkedIn</a>
         <a href="#projects">Projects</a>
         <a href="#">Contact</a> 
       </div>

@@ -12,8 +12,8 @@ const Main = () => {
         </div>
       </div>
       <div className="main-icons">
-        <a href='https://github.com/Robdowski?tab=repositories'><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/robert-carter-72824918a/"><i class="fab fa-linkedin-in"></i></a>
+        <a href='https://github.com/Robdowski?tab=repositories' target='_blank'><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/robert-carter-72824918a/" target='_blank'><i class="fab fa-linkedin-in"></i></a>
         <a href="#projects"><i class="fas fa-folder-open"></i></a>
         <i class="fas fa-envelope"></i>
       </div>
