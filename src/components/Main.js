@@ -14,6 +14,7 @@ const Main = () => {
       <div className="main-icons">
         <i class="fab fa-github"></i>
         <i class="fab fa-linkedin-in"></i>
+        <i class="fas fa-folder-open"></i>
         <i class="fas fa-envelope"></i>
       </div>
     </div>

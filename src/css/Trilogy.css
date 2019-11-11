@@ -8,18 +8,36 @@
 .trilogy{
     width: 30%;
     height: 90%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(39, 39, 39, 0.6);
     border-radius: 5px;
 }
 
 .trilogy h3{
     font-family: 'Hikou';
-    font-size: 2.2rem;
+    font-size: 2.6rem;
+    margin: 20px;
+}
+
+.trilogy p{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .one{
     color: #14A76C;
-    border: 1px solid #14A76C;
+    border:1px solid #14A76C;
+}
+
+.one a{
+    text-decoration: none;
+    color: #14A76C;
+}
+
+.one a i{
+    color: #14A76C;
+    font-size: 3rem;
 }
 
 .two{
@@ -27,7 +45,69 @@
    border: 1px solid #FFE400;
 }
 
+.two a{
+    text-decoration: none;
+    color: #FFE400;
+}
+
+.two a i{
+    color: #FFE400;
+    font-size: 3rem;
+}
+
 .three{
     color: #FF652F;
     border: 1px solid #FF652F;
 }
+
+.three a{
+    text-decoration: none;
+    color: #FF652F;
+}
+
+.three a i{
+    color: #FF652F;
+    font-size: 3rem;
+}
+
+.trilogy-image{
+    width:80%;
+    margin: 0 auto;
+}
+
+.trilogy-links{
+    width: 80%;
+    margin: 30px auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.trilogy-links a{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.trilogy-links a h3{
+    margin-left: 12px;
+}
+
+.trilogy-skills{
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+.trilogy-skills-icons{
+    display:flex;
+    justify-content: center;
+}
+
+.trilogy-skills-icons i{
+    font-size: 3rem;
+    margin: 0 20px;
+}
+
