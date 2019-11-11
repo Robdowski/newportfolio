@@ -32,10 +32,17 @@
   margin-left: 10px;
 }
 
-.main-icons {
-  margin: 20px;
+.main-icons{
+  margin:20px;
+}
+
+.main-icons i {
   color: #ff652f;
   font-size: 1.5rem;
+}
+
+.main-icons i:hover{
+  color: #FFa07F;
 }
 
 .main-icons i {

@@ -16,6 +16,7 @@
     font-family: 'Hikou';
     font-size: 2.6rem;
     margin: 20px;
+    text-decoration: underline;
 }
 
 .trilogy p{
@@ -79,17 +80,20 @@
     width: 80%;
     margin: 30px auto;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .trilogy-links a{
     display:flex;
     justify-content: center;
     align-items:center;
+    width: 45%;
 }
 
 .trilogy-links a h3{
     margin-left: 12px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .trilogy-skills{
@@ -99,11 +103,18 @@
     flex-direction:column;
     align-items:center;
     justify-content: center;
+    
+}
+
+.trilogy-skills h3{
+    margin: 0;
+    padding: 0;
 }
 
 .trilogy-skills-icons{
     display:flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .trilogy-skills-icons i{
