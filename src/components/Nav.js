@@ -1,7 +1,8 @@
 import React from "react";
 import "../css/Nav.css";
 
-const Nav = () => {
+
+const Nav = (props) => {
   return (
     <div className="nav-bar">
       <div className="nav-header-container">
@@ -12,7 +13,7 @@ const Nav = () => {
         <a href="https://github.com/Robdowski?tab=repositories" target='_blank'>Github</a>
         <a href="https://www.linkedin.com/in/robert-carter-72824918a/" target='_blank'>LinkedIn</a>
         <a href="#projects">Projects</a>
-        <a href="#">Contact</a> 
+        <a href="#main" onClick={e => props.setModal(true)}>Contact</a> 
       </div>
     </div>
   );

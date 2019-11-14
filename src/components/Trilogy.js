@@ -2,9 +2,9 @@ import React from "react";
 import '../css/Trilogy.css'
 
 
-const Trilogy = () => {
+const Trilogy = (props) => {
   return (
-    <div className="trilogy-container" id='projects'>
+    <div className="trilogy-container" id='projects' onClick={e => props.modal === true ? props.setModal(false) : null}>
       <div className="trilogy one">
         <h3>Save The Animals React App</h3>
         <img src={require('../css/photos/saveanimals.jpg')} className='trilogy-image' />
