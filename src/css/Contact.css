@@ -1,3 +1,94 @@
 .hidden{
     display: none;
 }
+
+.form-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 50vh;
+    background: rgb(0,0,0);
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #14A76C
+}
+
+.form-container h2{
+    font-family: 'Hikou';
+    font-size: 2.5rem;
+    color: #14a76c;
+}
+
+.form-name label{
+    color: #14A76C;
+}
+
+.form-email label{
+    color: #FFe400;
+}
+
+.form-message label{
+    color: #FF652F;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+form div{
+    margin: 10px auto;
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    width: 60%;
+    border-radius: 3px;
+    color: #000;
+}
+
+.form-name input:focus{
+    border: 2px solid #14a76c;
+}
+
+.form-email input:focus{
+    border: 2px solid #ffe400;
+}
+
+
+form textarea:focus{
+    border: 2px solid #ff652f;
+}
+
+form textarea{
+    width: 60%;
+    border-radius: 3px;
+    height: 80px;
+    color: #000;
+    resize: none;
+}
+
+form button{
+    margin-top: 40px;
+    padding: 8px 40px;
+    border-radius: 3px;
+}
+
+.close{
+    position: absolute;
+    top:-5%;
+    right:.5%;
+}
+
+.close h3{
+    color: #FF652F;
+    cursor: pointer;
+}

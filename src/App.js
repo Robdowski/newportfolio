@@ -13,7 +13,7 @@ function App() {
       <Nav  modal={modal} setModal={setModal} />
       <Main  modal= {modal} setModal={setModal} />
       <Trilogy modal={modal} setModal={setModal} />
-      <Contact modal={modal} />
+      <Contact modal={modal} setModal={setModal} />
     </div>
   );
 }
