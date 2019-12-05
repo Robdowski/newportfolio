@@ -6,9 +6,9 @@ const Trilogy = (props) => {
   return (
     <div className="trilogy-container" id='projects' onClick={e => props.modal === true ? props.setModal(false) : null}>
       <div className="trilogy one">
-        <h3>Save The Animals React App</h3>
+        <h3>Sauti Databank</h3>
         <img src={require('../css/photos/saveanimals.jpg')} className='trilogy-image' />
-        <p>This project was built with the React framework with a fully functioning backend built with NodeJS and Express. The project utilizes Redux for state management and utilizes a RESTful API for HTTP requests.</p>
+        <p>Sauti is a nonprofit located in East Africa devoted to providing assistance with getting market prices to cross-border-traders who generally do not have internet access. This project was implemented to collect and visualize the data from these market requests.</p>
         <div className="trilogy-skills">
         <div className='trilogy-skills-header'>
           <h3>Technoligies</h3>
