@@ -9,6 +9,10 @@
   font-family: "Hikou";
 }
 
+.main-header a{
+  text-decoration: none;
+}
+
 .main-header h1 {
   color: #14a76c;
   font-size: 3.8rem;

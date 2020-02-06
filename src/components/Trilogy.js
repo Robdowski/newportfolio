@@ -32,7 +32,7 @@ const Trilogy = (props) => {
         </div>
       </div>
       <div className="trilogy two">
-        <h3>Save The Animals React App</h3>
+        <h3>Save The Animals</h3>
         <img src={require('../css/photos/saveanimals.jpg')} className='trilogy-image' />
         <p>This project was built with the React framework with a fully functioning backend built with NodeJS and Express. The project utilizes Redux for state management and utilizes a RESTful API for HTTP requests.</p>
         <div className="trilogy-skills">
@@ -58,7 +58,7 @@ const Trilogy = (props) => {
         </div>
       </div>
       <div className="trilogy three">
-        <h3>Save The Animals React App</h3>
+        <h3>Save The Animals</h3>
         <img src={require('../css/photos/saveanimals.jpg')} className='trilogy-image' />
         <p>This project was built with the React framework with a fully functioning backend built with NodeJS and Express. The project utilizes Redux for state management and utilizes a RESTful API for HTTP requests.</p>
         <div className="trilogy-skills">
